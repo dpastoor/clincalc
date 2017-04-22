@@ -1,9 +1,9 @@
 {
   "name": "clincalc",
   "version": "0.0.3",
-  "description": "",
-  "main": "lib/index",
-  "typings": "lib/index",
+  "description": "misc clinical calculations",
+  "main": "./lib/index.js",
+  "typings": "./lib/index",
   "scripts": {
     "build": "tsc -p .",
     "test": "jest",

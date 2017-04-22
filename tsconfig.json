@@ -3,12 +3,17 @@
         "declaration": true,
         "outDir": "lib",
         "target": "es5",
-        "module": "commonjs"
+        "module": "commonjs",
+        "moduleResolution": "node"
     },
     "include": [
-        "src"
+        "src/**/*"
     ],
     "exclude": [
         "src/__tests__"
+    ],
+     "lib": [
+      "es6",
+      "dom"
     ]
 }
