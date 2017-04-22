@@ -7,6 +7,7 @@
   "scripts": {
     "build": "tsc -p .",
     "test": "jest",
+    "doc": "typedoc --out docs src --module commonjs",
     "test:coverage": "jest --coverage"
   },
   "keywords": [],
@@ -22,9 +23,10 @@
   "devDependencies": {
     "jest": "^19.0.2",
     "ts-jest": "^19.0.10",
+    "typedoc": "^0.5.10",
     "typescript": "^2.2.2"
   },
-   "jest": {
+  "jest": {
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
