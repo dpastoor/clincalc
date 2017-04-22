@@ -1,0 +1,16 @@
+{
+  "name": "clincalc",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index",
+  "typings": "lib/index",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "Devin Pastoor <devin.pastoor@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.2.2"
+  }
+}
