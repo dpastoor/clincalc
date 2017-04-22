@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc -p .",
     "test": "jest",
-    "doc": "typedoc --out docs src --module commonjs",
+    "doc": "typedoc --out docs src --target ES5 --module commonjs",
     "test:coverage": "jest --coverage"
   },
   "keywords": [],

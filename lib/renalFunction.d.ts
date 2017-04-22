@@ -5,4 +5,4 @@
  * @param scr - serum creainine in mg/dL.
  * @param female - whether patient is female
  */
-export default function renalFunction(age: number, weight: number, scr: number, female: boolean): number;
+export declare function renalFunction(age: number, weight: number, scr: number, female: boolean): number;

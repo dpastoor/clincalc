@@ -9,4 +9,4 @@
  * @param vd - whether patient has history of vascular disease
  *
  */
-export default function chadsVasc(age: number, female: boolean, hf: boolean, ht: boolean, sti: boolean, dbm: boolean, vd: boolean): number;
+export declare function chadsVasc(age: number, female: boolean, hf: boolean, ht: boolean, sti: boolean, dbm: boolean, vd: boolean): number;

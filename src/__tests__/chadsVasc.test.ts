@@ -1,4 +1,4 @@
-import chadsVasc  from '../chadsVasc';
+import { chadsVasc }  from '../chadsVasc';
 describe("chads vasc score", () => {
     it('calculates lowest risk patient', () => {
     let patient = chadsVasc(50, false, false, false, false, false, false) 
