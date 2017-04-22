@@ -1,2 +1,2 @@
-export { renalFunction } from "./renalFunction";
-export { chadsVasc } from "./chadsVasc";
+export * from "./renalFunction";
+export * from "./chadsVasc";
