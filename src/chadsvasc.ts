@@ -1,5 +1,5 @@
 /**
- * calculate renal function of a patient 
+ * calculate CHA2DS2-VASc score for a patient 
  * @param age - age in years.
  * @param female - whether patient is female
  * @param hf - whether patient has history of heart failure 
