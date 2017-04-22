@@ -6,7 +6,8 @@
   "typings": "lib/index",
   "scripts": {
     "build": "tsc -p .",
-    "test": "jest --coverage"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "Devin Pastoor <devin.pastoor@gmail.com>",
