@@ -1,4 +1,4 @@
-import { renalFunction } from '../index';
+import renalFunction  from '../renalFunction';
 describe("renal function", () => {
     it('calculates male', () => {
     let male = renalFunction(60, 60, 0.5, false);
