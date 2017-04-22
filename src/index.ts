@@ -1,2 +1,2 @@
 export * from "./renalFunction";
-export * from "./chadsVasc";
+export * from "./chadsvasc";
