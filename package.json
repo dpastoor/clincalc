@@ -5,12 +5,27 @@
   "main": "lib/index",
   "typings": "lib/index",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "Devin Pastoor <devin.pastoor@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "jest": "^19.0.2",
+    "ts-jest": "^19.0.10",
     "typescript": "^2.2.2"
+  },
+   "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testResultsProcessor": "<rootDir>/node_modules/ts-jest/coverageprocessor.js",
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
   }
 }
