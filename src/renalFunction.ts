@@ -6,6 +6,9 @@
  * @param female - whether patient is female
  */
 export function renalFunction(age: number, weight: number, scr: number, female: boolean) {
-    let isFemale = female ? 1 : 0;
-    return ((140-age)*weight/(72*scr)*(1-0.15*isFemale))
+    if (age <= 0 || scr <= 0 || weight <= 0) {
+            return -1;
+        }
+    let femaleScaling = female ? 0.85 : 1;
+    return (140 - age) * weight / (72 * scr) * femaleScaling;
 }
