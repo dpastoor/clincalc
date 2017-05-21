@@ -8,7 +8,9 @@
     "build": "tsc -p .",
     "test": "jest",
     "doc": "typedoc --out docs src --target ES5 --module commonjs",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "bump": "npm version patch",
+    "bump:minor": "npm version minor"
   },
   "keywords": [],
   "author": "Devin Pastoor <devin.pastoor@gmail.com>",
